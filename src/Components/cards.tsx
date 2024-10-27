@@ -2,7 +2,7 @@ function Cards() {
 
 
     return (
-        <>
+        <section className="cards-ctn">
             <section className="cards">
                 <a href="https://recipegen-ai.vercel.app/" className="card flex-row">
                     <div className="left-sec"><img src="/recipegen.png" alt="" /></div>
@@ -19,7 +19,7 @@ function Cards() {
                     <div className="right-sec"><p>Nutritional Powerhouse delivers detailed nutritional insights on fruits and vegetables. Users can input a fruit or vegetable to access comprehensive data on calories, vitamins, sugars, and health benefits. The app also offers unique visualizations, making nutritional info easy to understand and impactful for health-conscious users. Ideal for anyone focused on nutrition and healthy living.</p></div>
                 </a>
             </section>
-        </>
+        </section>
     );
 }
 
